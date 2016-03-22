@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ShutdownSchedular.exe" version="1.0.0.1" publicKeyToken="5c5cc79195e23556" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ShutdownSchedular" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ShutdownSchedular.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ShutdownSchedular.exe" size="14848">
+      <assemblyIdentity name="ShutdownSchedular" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+sfRqVPx8Tzdjmdr4WPizmW6Uu1A4zhZtDWhIDQcu9k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ShutdownSchedular.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Darshan-PC\Darshan" issuerKeyHash="ce66a96db56767925950ce1bdcc8a963cb5ea0d7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wRIWfqogawejXPJ34BG/xosCAm+Mr4Kx6Y0D3Z5D518=</DigestValue></Reference></SignedInfo><SignatureValue>OUipRsRqCihv2ZJFFLrYkorUtvb0cHJM/ktH62Lp2ovs5bpeKBiUpXIHehY69Mg/+u21ZhJbqzbzp7elv57+E902PmI3EgtG7ax2Fh0v4FJ1WHn9f+JTiahynJPOtbS2JWxEJlmynHVTIQj0Epu6FRiAf09M6Zi665SLxkx5T5E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p/h9tPK/pNb7trPzUv0DhwtK5pajzJ96Y+nbz6Ilk9Sgg9PvdJVMgPr6XySlGDEEjza8gtKyfpz/vL9qzTkQYtLcOUQjufGBNJIhxCNIQY9Lb6Ibx+Ppk4o+DocMRYK4vr5rDjl/WygnUJWiL5z7VDoJk/1qY+AgUFk9H1r5HSU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5fe7439edd038de9b182af8c6f02028bc6bf11e077f25ca3076b20aa7e1612c1" Description="" Url=""><as:assemblyIdentity name="ShutdownSchedular.exe" version="1.0.0.1" publicKeyToken="5c5cc79195e23556" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Darshan-PC\Darshan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nfsB3ugMCTD4B1w/rvF6yf4jkM/K1BqGAOjwZ+k5Gjo=</DigestValue></Reference></SignedInfo><SignatureValue>SLUCucEc9PVXnwguGLhR/vT4S5eht0LCJARTRlrmWh84axA3S2u6y625AKJjGdK6AUXS4zTQIifDXjbvHYd/SIPvBlie1PO7OgO9xM2sVybpN6f2a93JxIzECX/ZnEsPYz5xCBjRPF4Dm8unWfQywh0001PlYl0bAYovtxnjcSc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p/h9tPK/pNb7trPzUv0DhwtK5pajzJ96Y+nbz6Ilk9Sgg9PvdJVMgPr6XySlGDEEjza8gtKyfpz/vL9qzTkQYtLcOUQjufGBNJIhxCNIQY9Lb6Ibx+Ppk4o+DocMRYK4vr5rDjl/WygnUJWiL5z7VDoJk/1qY+AgUFk9H1r5HSU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQK56+EbKSpa5GwEgMeITLFjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABhAHIAcwBoAGEAbgAtAFAAQwBcAEQAYQByAHMAaABhAG4wHhcNMTYwMzEzMTAyOTEwWhcNMTcwMzEzMTYyOTEwWjAvMS0wKwYDVQQDHiQARABhAHIAcwBoAGEAbgAtAFAAQwBcAEQAYQByAHMAaABhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKf4fbTyv6TW+7az81L9A4cLSuaWo8yfemPp28+iJZPUoIPT73SVTID6+l8kpRgxBI82vILSsn6c/7y/as05EGLS3DlEI7nxgTSSIcQjSEGPS2+iG8fj6ZOKPg6HDEWCuL6+aw45f1soJ1CVoi+c+1Q6CZP9amPgIFBZPR9a+R0lAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAS/4ih+iWVa8l7K5go+QxYEu7J/aClTMiLVvPr09KbxB7a5ZHy/cHYnvUu/hDniikctBYmlIp23hA+VPiA0kqqZPmCK2wpvghJ9CZTB0J5v5FzbqPGjkyz3AZQaOM8Ynpx78k5X04MZp+p1XdedvfAohHjDcrIeBjUTbcyDNSRGE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

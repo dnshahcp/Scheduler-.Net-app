@@ -1,0 +1,13 @@
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\bin\Release\ShutdownSchedular.exe.config
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Release\ShutdownSchedular.Frmscheduler.resources
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Release\ShutdownSchedular.Properties.Resources.resources
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Release\ShutdownScheduler.csproj.GenerateResource.Cache
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\bin\Release\ShutdownSchedular.exe
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\bin\Release\ShutdownSchedular.pdb
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Release\ShutdownSchedular.exe
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Release\ShutdownSchedular.pdb
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Release\ShutdownScheduler.csprojResolveAssemblyReference.cache
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\bin\Release\ShutdownSchedular.exe.manifest
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\bin\Release\ShutdownSchedular.application
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Release\ShutdownSchedular.exe.manifest
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Release\ShutdownSchedular.application

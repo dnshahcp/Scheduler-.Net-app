@@ -1,0 +1,9 @@
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\bin\Debug\ShutdownSchedular.exe.config
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\bin\Debug\ShutdownSchedular.exe
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\bin\Debug\ShutdownSchedular.pdb
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Debug\ShutdownScheduler.csprojResolveAssemblyReference.cache
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Debug\ShutdownSchedular.Frmscheduler.resources
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Debug\ShutdownSchedular.Properties.Resources.resources
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Debug\ShutdownScheduler.csproj.GenerateResource.Cache
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Debug\ShutdownSchedular.exe
+F:\work\.Net Work\ShutdownSchedular\ShutdownSchedular\obj\Debug\ShutdownSchedular.pdb
